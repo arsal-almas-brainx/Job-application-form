@@ -1,0 +1,94 @@
+/*Classes*/
+.jobform{
+    margin: 4px;
+    margin-left: 415px;
+    margin-right: 415px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.fields{
+    border: none;
+}
+.tags{
+    color: brown;
+    margin-top: 5px;
+}
+.mini-section{
+    margin-left: 4px;
+}
+.input-field{
+    display: grid;
+    grid-template-columns: 30% 70%; /* Or use 3fr 7fr */
+    margin-top: 13px;
+}
+.subfields{
+    margin-top: 0px;
+    font-size: 11px;
+}
+.select-field{
+    width: 70%;
+    height: 25px;
+}
+.addr{
+    margin-left: 45%;
+}
+.btn {
+  background: brown;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  width: 13%;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 50%;
+  margin-top: 12px;
+}
+
+/*elements*/
+input{
+    height: 25px;
+    width: 90%;
+}
+small{
+    color: grey;
+    font-size: 10px;
+    padding-top: 0%;
+    display: block;
+}
+
+
+/*id*/
+#cntry{
+    display: grid;
+    grid-template-columns: 40% 18% 27%;
+}
+#names{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#PhNo{
+    display: grid;
+    grid-template-columns: 15% 75%;
+}
+#name-left, #name-right {
+    display: flex;
+    flex-direction: column;
+}
+
+#resume{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #ccc;
+    height: 25px;
+    width: 70%;
+
+}
+#zipcode{
+    margin-left: 8px;
+}
+#phoneNumber2{
+    margin-left: 8px;
+}
+#hobies{
+    margin-left: 4px;
+    width: 90%;
+}
