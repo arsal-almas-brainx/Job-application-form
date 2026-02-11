@@ -1,11 +1,11 @@
 /*Classes*/
 .jobform{
-    margin: 4px;
-    margin-left: 415px;
-    margin-right: 415px;
+    width: calc(100% - 830px);
+    max-width: 1090px;
+    min-width: 700px; /* prevents breaking on smaller desktop */
+    margin: 20px auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 .fields{
     border: none;
 }
