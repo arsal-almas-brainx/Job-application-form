@@ -59,11 +59,7 @@ body{
   padding-right: 30px;
 }
 .addr{
-    display: block;
-    text-align: center;
-}
-.div-btn{
-    text-align: center;
+    margin-left: 45%;
 }
 .btn {
   background: rgb(101,2,4);
@@ -73,6 +69,7 @@ body{
   width: 13%;
   border-radius: 3px;
   cursor: pointer;
+  margin-left: 47%;
   margin-top: 12px;
 }
 .input-field-left{
@@ -136,7 +133,7 @@ small{
     width: 50%;
 }
 #cntry small{
-    text-align: center;
+    margin-left: 40%;
 }
 #fanme{
     width: 90%;
