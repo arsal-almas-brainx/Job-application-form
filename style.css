@@ -9,36 +9,41 @@ body{
 }
 .main-heading{
     text-align: center; 
-    margin-top: 2px; 
     font-family:'Times New Roman', Times, serif;
+}
+.job-form-1{
+    display: grid;
+    grid-template-columns: 30% 33% 33%;
 }
 .jobform{
     width: calc(100% - 860px);
     max-width: 1090px;
     min-width: 590px; 
-    margin: 20px auto;
+    
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .fields{
     border: none;
 }
+.tags p{
+    display: inline;
+}
 .tags{
     color: rgb(150,5,12);
-    margin-top: 5px;
-    margin-left: 4px;
+    
+    display: grid;
+    grid-template-columns: 1% 99%;
 }
 .mini-section{
-    margin-left: 4px;
+    display: grid;
+    grid-template-columns: 4px auto;
 }
 .input-field{
     display: grid;
-    grid-template-columns: 30% 70%; 
-    margin-top: 13px;
+    grid-template-columns: 4px 30% auto; 
+    
 }
-.subfields{
-    margin-top: 0px;
-    font-size: 11px;
-}
+
 .select-field{
     width: 70%;
     height: 28px;
@@ -73,10 +78,6 @@ body{
   width: 13%;
   border-radius: 3px;
   cursor: pointer;
-  margin-top: 12px;
-}
-.input-field-left{
-    margin-left: 4px;
 }
 
 /*elements*/
@@ -108,7 +109,7 @@ small{
 }
 #PhNo{
     display: grid;
-    grid-template-columns: 9% 75%;
+    grid-template-columns: 9% 12px 75%;
 }
 #name-left, #name-right {
     display: flex;
@@ -123,13 +124,11 @@ small{
 
 }
 #zipcode{
-    margin-left: 8px;
+    text-indent: 8px;
 }
-#phoneNumber2{
-    margin-left: 8px;
-}
+
 #hobies{
-    margin-left: 4px;
+    text-indent: 8px;
     width: 90%;
 }
 #education{
@@ -142,5 +141,9 @@ small{
     width: 90%;
 }
 #hobies-label{
-    margin-left: 4px;
+    text-indent: 4px;
+}
+#myhobies{
+    display: grid;
+    grid-template-columns: 4px auto;
 }
