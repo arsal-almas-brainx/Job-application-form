@@ -16,10 +16,11 @@ body{
     grid-template-columns: 30% 33% 33%;
 }
 .jobform{
+    display: grid;
+    row-gap: 0px;
     width: calc(100% - 860px);
     max-width: 1090px;
     min-width: 590px; 
-    
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .fields{
@@ -30,7 +31,6 @@ body{
 }
 .tags{
     color: rgb(150,5,12);
-    
     display: grid;
     grid-template-columns: 1% 99%;
 }
@@ -41,9 +41,7 @@ body{
 .input-field{
     display: grid;
     grid-template-columns: 4px 30% auto; 
-    
 }
-
 .select-field{
     width: 70%;
     height: 28px;
@@ -53,15 +51,12 @@ body{
     border-width: 2px;
     border-radius: 5px;
     padding-left: 4px;
-
-
     appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-
-  background: url("dropdown.png") no-repeat right 5px center;
-  background-size: 28px;
-  padding-right: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("dropdown.png") no-repeat right 5px center;
+    background-size: 28px;
+    padding-right: 30px;
 }
 .addr{
     display: block;
@@ -74,13 +69,22 @@ body{
   background: rgb(101,2,4);
   color: white;
   border: none;
-  padding: 10px 20px;
-  width: 13%;
+  padding: 6px 20px;
+  width: 16%;
   border-radius: 3px;
   cursor: pointer;
+  font-size: 19px;
 }
-
+h1.main-heading{
+    height: 0px;
+}
+.tags1{
+    padding-bottom: 26px;
+}
 /*elements*/
+form{
+    height: 1255px;
+}
 input{
     height: 25px;
     width: 90%;
@@ -90,14 +94,17 @@ input{
     border-width: 2px;
     border-radius: 5px;
 }
+input::placeholder{
+    font-size: 16px;
+    padding: 0;
+    color: #A397A0;
+}
 small{
     color: hsla(0, 0%, 50%, 0.9);
     font-size: 10px;
     padding-top: 0%;
     display: block;
 }
-
-
 /*id*/
 #cntry{
     display: grid;
@@ -115,18 +122,15 @@ small{
     display: flex;
     flex-direction: column;
 }
-
 #resume{
     border: 2px solid rgba(0, 0, 0, 0.1);
     color: #ccc;
     height: 25px;
     width: 70%;
-
 }
 #zipcode{
     text-indent: 8px;
 }
-
 #hobies{
     text-indent: 8px;
     width: 90%;
@@ -142,8 +146,14 @@ small{
 }
 #hobies-label{
     text-indent: 4px;
+    align-content: end;
+    padding-bottom: 4px;
 }
 #myhobies{
     display: grid;
     grid-template-columns: 4px auto;
+}
+#email{
+    height: 21px;
+    padding: 0 2px;
 }
