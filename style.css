@@ -127,6 +127,8 @@ small{
     color: #ccc;
     height: 25px;
     width: 70%;
+    padding-top: 3px;
+    padding-left: 2px;
 }
 #zipcode{
     text-indent: 8px;
